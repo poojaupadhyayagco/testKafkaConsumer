@@ -1,0 +1,16 @@
+{
+    "type": "record",
+    "name": "DeviceReferenceData",
+    "namespace": "agco",
+     "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "avro.java.string": "String"
+        },
+        {
+          "name": "age",
+          "type": "int"
+        }
+      ]
+}
